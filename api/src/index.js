@@ -4,4 +4,3 @@ import { Cors } from "cors";
 
 const app = Express();
 app.use(Cors());
-
