@@ -2,18 +2,19 @@ import LadoEsquerdo from "../components/lado esquerdo/ladoesquerdo"
 import CabecalhoDireito from "../components/cabeçalho lado direito/cabecalhodireito"
 import Inputs from "../components/inputs/inputs"
 import { Container } from "./styled"
+import './conteudo.css'
 export default function Conteudo() {
     return(
     <Container>
            
         <LadoEsquerdo />
 
-        <div class='lado direito'>
+        <div class='ladoDireito'>
                 <CabecalhoDireito />
                 
                 <div className="registro-alunos">
                     <div className="barra"></div>
-                    <div className="titulo"></div>
+                    <div className="titulo">Novo aluno</div>
 
                     <div className="inputs-1">
                         <Inputs label="Nome:" />

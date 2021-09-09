@@ -1,5 +1,6 @@
 import { Cabecalho } from "./styled"
 
+
 export default function CabecalhoDireito() {
     return (
         <Cabecalho>
@@ -9,8 +10,8 @@ export default function CabecalhoDireito() {
             </div>
 
             <div className="lado-direito">
-                <div className="carregar"><img src="" alt="" /></div>
-                <div className="sair"><img src="" alt="" /></div>
+                <div className="carregar"><img src="/assets/images/recarregar devschool.PNG" alt="" /></div>
+                <div className="sair"><img src="/assets/images/sair devschool.PNG" alt="" /></div>
             </div>
             </Cabecalho>
     )

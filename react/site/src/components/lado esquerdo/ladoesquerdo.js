@@ -1,19 +1,20 @@
-import { Container, faixaPreta } from "./styled"
+import { Container, FaixaPreta, Cabecalho, BotaoGerenciamento, Alunos } from "./styled";
+import './styled.css';
 
 export default function LadoEsquerdo() {
     return (
         <Container>
-            <div className="cabecalho-le">
-                <div className="foto-titulo-le"></div>
+            <Cabecalho>
+                <div className="imagem-logo"><img src="/assets/images/logodevschool.PNG" alt="" /></div>
                 <div className="titulo-p1">Dev</div>
                 <div className="titulo-p2">School</div>
-            </div>
+            </Cabecalho>
             
-            <faixaPreta></faixaPreta>
+            <FaixaPreta> </FaixaPreta>
 
-            <div className="botao-gerenciamento">Gerenciamento ∧</div>
+            <BotaoGerenciamento>Gerenciamento <img src="/assets/images/setinhabaixa.svg" alt="" /> </BotaoGerenciamento>
         
-            <div className="alunos"> Alunos </div>
+            <Alunos> Alunos </Alunos>
          </Container>
     )
 }
