@@ -13,18 +13,23 @@ export default function Conteudo() {
                 <CabecalhoDireito />
                 
                 <div className="registro-alunos">
-                    <div className="barra"></div>
-                    <div className="titulo">Novo aluno</div>
-
-                    <div className="inputs-1">
-                        <Inputs label="Nome:" />
-                        <Inputs label="Curso:" />
+                   
+                    <div className="titulo-e-barra">
+                        <div className="barra"></div>
+                        <div className="titulo">Novo aluno</div>
                     </div>
-                    
-                    <div className="inputs-2">
-                        <Inputs label="Chamada:" />
-                        <Inputs label="Turma:" />
-                       
+
+                    <div className="registrar">
+                        <div className="inputs-1">
+                            <Inputs label="Nome:" />
+                            <Inputs label="Chamada:" />
+                        </div>
+                        
+                        <div className="inputs-2">
+                            <Inputs label="Curso:" />
+                            <Inputs label="Turma:" />
+                        </div>
+                            
                         <div className="botao">
                             <button> Cadastrar</button>
                         </div>
@@ -32,8 +37,10 @@ export default function Conteudo() {
                 </div>
 
                 <div className="lista-alunos">
-                    <div className="barra"></div>
-                    <div className="titulo">Alunos Matriculados</div>
+                <div className="titulo-e-barra">
+                        <div className="barra"></div>
+                        <div className="titulo">Alunos matriculados</div>
+                    </div>
                     <div className="lista">
                         <div className="identificações">
                             <div className="id-aluno"> ID </div>
