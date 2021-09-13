@@ -14,7 +14,7 @@ margin: 0%;
 }
 
 .ladoDireito{
-    border: 2px solid green;
+   
     width: 100%;
 }
 
@@ -40,19 +40,35 @@ border-radius: 35px;
 }
 
 .titulo{
-    font-size: 32px;
+    font: 32px roboto-bold;
 }
 
 .registrar{
     display: flex;
     flex-direction: row;
-}
-
-.inputs-1, .inputs-2{
-    
+    padding-bottom: 30px;
+    font: 18px roboto-regular;
 }
 
 .inputs-1{
+   margin-left: 20px;
+   margin-top: 30px;
+}
+
+.inputs-2 {
+   margin-left: 70px;
+   padding-top: 20px;
+   
+   
+}
+
+.inputs-2 :nth-child(1){
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.inputs-1 :nth-child(1){
+margin-bottom: 10px;
+margin-left: 30px;
 
 }
 
@@ -70,7 +86,80 @@ border-radius: 35px;
     display: flex;
     justify-content: flex-end;
     justify-content: end;
+    margin-left: 60px;
+    margin-top: 85px;
+    font: 14px roboto-medium;
+    cursor: pointer;
 }
+
+.lista-alunos{
+    margin: 40px 50px 20px 50px;
+    background-color: #ffffff;
+}
+
+.categorias{
+    background-color: #986CDF;
+    color: #ffffff;
+    font: 18px Roboto-medium;
+}
+
+.categorias :nth-child(3){
+    background-color: #986CDF;
+    color: #ffffff;
+    margin-left: 100px;
+}
+
+.lista{
+    margin-top: 20px;
+}
+
+thead {
+        background-color: #986CDF;
+    }
+    table {
+        margin-top: 2em;
+    }
+    tbody {
+        background-color: #F5F5F5;
+    }
+    td {
+        text-align: left;
+        height:  61.93px;
+        padding: 1em;
+        color: #6D6868;
+        font-weight: 600;
+    }
+    th {
+        height: 61.93px;
+        text-align: left;
+        padding: 1em;
+        color: #ffff;
+        font-weight: 800;
+    }
+    .tabela {
+        border-collapse: collapse;;
+    }
+
+    .alunos-cadastrados {
+        
+    }
+
+    .categorias :nth-child(3){
+        padding-left: 250px;
+    }
+
+
+    .categorias :nth-child(5){
+        padding-left: 50px;
+        padding-right: 100px;
+    }
+    .tabela{
+        padding-left: 50px;
+    }
+
+    tr{
+        padding-right: 100px;
+    }
 `
 
 export { Container }

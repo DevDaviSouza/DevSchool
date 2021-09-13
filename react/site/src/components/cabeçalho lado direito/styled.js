@@ -35,6 +35,10 @@ const Cabecalho = styled.div`
         width: 40px;
         height: 44px;
     }
+
+    .boas-vindas{
+        font: 16px roboto-light;
+    }
 `
 
 export {Cabecalho}

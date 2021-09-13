@@ -8,7 +8,7 @@ export default function Conteudo() {
     <Container>
            
         <LadoEsquerdo />
-
+            
         <div class='ladoDireito'>
                 <CabecalhoDireito />
                 
@@ -41,16 +41,36 @@ export default function Conteudo() {
                         <div className="barra"></div>
                         <div className="titulo">Alunos matriculados</div>
                     </div>
-                    <div className="lista">
-                        <div className="identificações">
-                            <div className="id-aluno"> ID </div>
-                            <div className="nome-aluno"> Nome </div>
-                            <div className="chamada-aluno"> Chamada </div>
-                            <div className="turma-aluno"> Turma </div>
-                            <div className="curso-aluno"> Curso </div>
-                        </div>
-                        <div className="registro"></div>
+                    
+                    <div className="tabela">
+                        <table className="tabela">
+                            <thead>
+                                <tr className="categorias">
+                                    <th> ID </th>
+                                    <th> Nome </th>
+                                    <th className="chamada"> Chamada </th>
+                                    <th> Turma </th>
+                                    <th> Curso </th>
+                                    <th class="coluna-acao"> </th>
+                                    <th class="coluna-acao"> </th>
+                                </tr>
+                            </thead>
+                    
+                            <tbody className="alunos-cadatrados">
+                                    
+                                    <tr className>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td>  </td>
+                                        <td>  </td>
+                                        <td> </td>
+                                        
+                                    </tr>
+                                
+                            </tbody> 
+                        </table>
                     </div>
+                                    
                 </div>
         </div>
     </Container>

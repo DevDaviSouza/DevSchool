@@ -6,7 +6,7 @@ export default function CabecalhoDireito() {
         <Cabecalho>
             <div className="lado-esquerdo">
                 <div className="foto-usuario"> <img src="/assets/images/Bruno.svg" alt="" /></div>
-                <div className="boas-vindas">Olá nome</div>
+                <div className="boas-vindas">Olá, nome</div>
             </div>
 
             <div className="lado-direito">
