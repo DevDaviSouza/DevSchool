@@ -29,6 +29,7 @@ const Cabecalho = styled.div`
         width: 40px;
         height: 40px;
         margin-right: 3px;
+        cursor: pointer;
     }
 
     .sair img{
